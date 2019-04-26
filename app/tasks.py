@@ -11,10 +11,9 @@ def text(a,b):
     c = a+b
     xxx.objects.create(
         name = c,
-        tim = now
     )
 
 
-    return "我是celery4.3"
+    return "celery4.3"
 
 

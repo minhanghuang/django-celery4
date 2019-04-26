@@ -1,5 +1,0 @@
-[2019-04-06 09:35:28,128: WARNING/ForkPoolWorker-2] 进来啦
-[2019-04-06 09:35:28,155: WARNING/ForkPoolWorker-2] /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1423: RuntimeWarning: DateTimeField xxx.tim received a naive datetime (2019-04-06 09:34:21.766538) while time zone support is active.
-  RuntimeWarning)
-[2019-04-06 09:36:28,123: WARNING/ForkPoolWorker-2] 进来啦
-[2019-04-06 09:37:28,120: WARNING/ForkPoolWorker-2] 进来啦
