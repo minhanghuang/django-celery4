@@ -19,5 +19,4 @@ from app import views
 
 urlpatterns = [
     path('send_email/', views.email_api),
-    path('text/', views.text),
 ]

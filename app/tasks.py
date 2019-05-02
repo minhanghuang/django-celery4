@@ -18,31 +18,16 @@ def text(a,b):
     return "celery4.3"
 
 
-from django.core.mail import send_mail
-from django.conf import settings
-from datetime import datetime
-
-
-
-
-
-from celery4.celery import app
-
 @shared_task
 def send_email():
 
     print("邮件发送中...")
-    sleep(5)
+    sleep(10)
     xxx.objects.create(
         name="发送邮件",
     )
-    email = "1097329291@qq.com"
-    send_mail('subject',  # 邮件标题
-              "oooo",  # 邮件内容
-              settings.EMAIL_FROM,  # 源
-              [email])  # 目的
 
-    return "jjjjj"
+    return "邮箱发送成功!!!"
 
 
 
